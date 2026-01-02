@@ -27,5 +27,5 @@ function submit(){
         }
         console.log(name[i])
     }
-    document.getElementById("card-avt").innerHTML = avt;
+    document.getElementById("card-avt").innerText = avt;
 }
