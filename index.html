@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DL1</title>
+  </head>
+  <body>
+    <div class="form" id="form">
+        <h1>Nhập thông tin</h1>
+        <input type="text" id="name" placeholder="Nhập tên">
+        <input type="number" id="mssv" placeholder="Nhập MSSV">
+        <button id="btn" onclick="submit()" >Xác nhận</button>
+    </div>
+    <div class="card" id="card" style="display: none;">
+        <h1>Thông tin</h1>
+        <div class="card-content">
+            <img src="assets/avt.png" alt="">
+            <p class="card-content-text" id="getName">Nguyễn Ngọc Thái</p>
+        </div>
+        <div class="card-content">
+            <img src="assets/code.png" alt="">
+            <p class="card-content-text" id="getMSSV">25655491</p>
+        </div>
+        <div class="card-avt" id="card-avt">T</div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
